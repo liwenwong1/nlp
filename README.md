@@ -3,11 +3,10 @@
 Twitter is widely used in sentiment analysis to help predict securities price movements and market behaviors.
 Previous work has shown that behaviors in the financial markets are affected by President Trump's tweets.
 
-The goal of this program is to determine whether there exists a similar behavior in short-term changes in the prices of financial securities immediately following Trump's tweets.
+The goal of this program is to apply text classification to analyze Trump's tweets and examine their potential impact on the market. 
 
 # Data
 Sets from a period of less than one year were collected from the Trump Twitter Archive.
-Set of COMEX Gold, NYMEX WTI Crude Oil, and ICE US Dollar Index futures contracts from Bloomberg terminal.
 
 # Methods
 Gensim Word2Vec Model: Based on Trump's tweets from inauguration day (01/20/2017) to 12/01/2019.
@@ -19,4 +18,4 @@ Gensim Word2Vec Model: Based on Trump's tweets from inauguration day (01/20/2017
 - Same methood implemented as with Naive Bayes.
 
 # Libraries
-numpy, scipy, pandas, re, math, nltk, gensim, sklearn, keras.
+numpy, scipy, pandas, re, math, nltk, gensim, sklearn.
