@@ -3,7 +3,7 @@
 Twitter is widely used in sentiment analysis to help predict securities price movements and market behaviors.
 Previous work has shown that behaviors in the financial markets are affected by President Trump's tweets.
 
-The goal of this project is to determine whether there exists a similar behavior in short-term changes in the prices of financial securities immediately following Trump's tweets.
+The goal of this program is to determine whether there exists a similar behavior in short-term changes in the prices of financial securities immediately following Trump's tweets.
 
 # Data
 Sets from a period of less than one year were collected from the Trump Twitter Archive.
