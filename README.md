@@ -1,5 +1,4 @@
-# NLP
-Natural Language Processing 
+# Background
 
 Twitter is widely used in sentiment analysis to help predict securities price movements and market behaviors.
 Previous work has shown that behaviors in the financial markets are affected by President Trump's tweets.
@@ -18,3 +17,6 @@ Gensim Word2Vec Model: Based on Trump's tweets from inauguration day (01/20/2017
 - Word2vec vectors as features for target predictions with 0, 1, -1's.
 3. Support Vector Maachine (SVM)
 - Same methood implemented as with Naive Bayes.
+
+# Libraries
+numpy, scipy, pandas, re, math, nltk, gensim, sklearn, keras.
